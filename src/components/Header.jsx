@@ -11,8 +11,13 @@ const Header = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
-        <div className="flex items-center">
-          <svg
+        <div className="flex items-center h-6">
+          <img
+            src="Logo/dow_logo_transparent.png"
+            alt="Dust of War Logo"
+            style={{ maxWidth: "150px" }} // לשינוי רוחב מקסימלי
+          />
+          {/* <svg
             width="161"
             height="31"
             viewBox="0 0 161 31"
@@ -21,7 +26,6 @@ const Header = () => {
             xmlnsXlink="http://www.w3.org/1999/xlink"
             className="h-8 md:h-10"
           >
-            {/* לוגו */}
             <path
               d="M160.5 0H0.174988V31H160.5V0Z"
               fill="url(#pattern0_64_14)"
@@ -45,7 +49,7 @@ const Header = () => {
                 xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ8AAAAfCAYAAAD5qx84AAAFbElEQVR4Ae1aO5LbOhDcC4g8lg+yl/AVfIO9gA/g/KUbO32hErLKmQPJtZlfNYUGG8MZEFJpP/bDVrEGAgaDmZ7Gh+A+PPS/jkBHoCPQEegIdAQ6Ah2BjkBHoCPQEfhzETjNw9fzPP72nl/T+OXPjax7vovAaR4+7Sq9ksJ5Gr55pGPd/558p2n8h2CIPAIY+V3MXMzmV8rXXcye5vHzeRqeT/P4E/HdxeiVRs7T+D3Cj/UR+dzVchperAunefhBW1lO43fVcyfANHxTnXcr30I+BPoRCQigQbicCPj5XuRzttpWX87T4VFjYBmTSomCCcY2SsSvOqdp+JdtlNaO6r9p+VbyLYFMw/ObOrsz2HkejwSYsjXhO6avbub4Kq/xxV/V1hXrPB+ewt1pOjzS4fM0vBQ+GHJS711kRD7rTBQo9VrsKAgs24TgjCbAHwO7WHl/6HmO9qxEf7URbXWMg9L4sRw7NhhMw4vdATY6sgImP/IEqfmiPktMx+wf4sLxQuyzTJ/c9u22vFk9aSdL0wc+RHEyps2xw7HxsBckg40GY3uLnRyMAIZ+2cblrKYzNSQfbC0kTbPcs73o3EA+j3iwFWHAZNeSQl90dWaiGL9Klzjz+Js6sAPsvG0ViYeee96bD0/Zxs4LUYGpIU+ExVIfnHc114sPLaSBYjQYA2mxUwSTCEiHlnOO2SKWRE2HR4yNR1bE/AKEevjg2WbC1Tfq028rl6Rv/fBXPp1E6SUM9mu+tJIPftnz68XuhTxpjKNLsPRy4hFT41VcIp+1XnebKM6onnZ0on6YlS9wOm8zKRmfoaeP2XrzlpaDlZVVgY/KQUJKP/wbgrwqwTbHV8mJFo1t6zdbF8g+Dc+KVbRCepMIZLRj1H6r7yxjbPRRH9gGyXbo6EQTnRXLFrBrg9H5FjviQF65mJAgmNVRDlSRXrC0X+lWNLXEEejcn3zz4clitqw+BfkPT+4KedlSy8l45RWLHRu/Sa4gX7kdoHr5QF0GPAByVUia0WA01GLHCwb9YCOawV4f1LEfx4f0gvX0tI8tt8QR6NydfCmmPFGJRUE2nK+cMxZWuY2f8hbMuHHcQW7tgx2F46mEHvpGfGB78r0k/+WYsnJr46BVSF5GgzGIFjsaBMvol23gU1Rw3qJ+Ic0h+G8kn3duUwwu5+DtCgkcNWf2/g+Ye1szbWtf1kGSXHvttA89fTAm8/1hznx0qAaIgpDLQsC/knyVb8PAYFnhglWq2E3MnSwO/hlDeXFi3R659tqZz6psWbFgIBqMxlvsMDCVuvLRViQ9cqGO+l77NfZhpyWOQOdVtt1o+8sYpnOcF3t6E05b33rFgjg9fYtVHkPICR6gf8QHtjMnVRkAmRPKztFgbG+x4wXDgNMsBVDFQ/uQHmCoo47XTvvU2ZMtcbg65ttrLdY9H2y7d8WU7adznOtTugvEFmxttmCVx3hr8kVkKxySpRzkKQ7C4jD6RPZIjvB7ZrokTv3LA+zyhWE9Qyxbyc6ZEXZsIvR3dMFciwHJRfxqp8ApYcFYVa+l7N7lLZfs63fcYosV7BGvd8XikU99jvJF/PbaW+IKt5nIOB0sLgvTSGHiQIjoY7l94RDgOBZkmtkr+ZyEw40lCRUCErwaOFEcLiaBH+o7y7eSLyIW7vw0Du9lDT77uVr+80e/Jq1v1ZV8ET8XC3khUb/CckrqOvAl+Tf/S9UmcZIcJkGlTUjgT0k+sekFViMgwfP6ad0mDm/1rvihMbJsY9Xx9sr+rmLOcc6Vy+Vfy/z/aXRxkpjot0ridxfy7QXd2zsCHYGOQEegI9AR6Ah0BDoCHYGOQEegI9AR6Ah0BDoCHYEPjcB/5gbIOPRSt6EAAAAASUVORK5CYII="
               />
             </defs>
-          </svg>
+          </svg> */}
         </div>
 
         {/* Mobile Menu Toggle */}

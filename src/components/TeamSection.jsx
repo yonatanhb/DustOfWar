@@ -38,7 +38,7 @@ const teamMembers = [
     role: "Game Developer",
     image: "/team/roey-tenenbaum.png",
   },
-  { name: "Sagi Lavin", role: "Graphic Design", image: "/team/sagi-lavin.png" },
+  { name: "Sagi Lavin", role: "Graphic Design", image: "/team/sagi-levin.png" },
   {
     name: "Ori Achinoam",
     role: "Composer & Sound Designer",

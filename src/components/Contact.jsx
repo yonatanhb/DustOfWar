@@ -67,7 +67,7 @@ const Contact = () => {
       id="contact"
       className="bg-gradient-to-b from-primaryDark via-secondaryDark to-black py-10 px-6 text-white relative"
     >
-      <h2 className="text-4xl font-extrabold text-center mb-6 uppercase tracking-wide text-gold relative">
+      <h2 className="text-4xl text-center mb-6 uppercase tracking-wide text-gold relative">
         Contact Us
         <span className="absolute left-1/2 transform -translate-x-1/2 bottom-[-10px] h-1 w-20 bg-gold"></span>
       </h2>
@@ -118,7 +118,7 @@ const Contact = () => {
           ></textarea>
           <button
             type="submit"
-            className="w-full py-3 bg-gold text-black font-bold rounded hover:bg-yellowBright transition duration-300 flex justify-center items-center"
+            className="w-full py-3 bg-gold text-black rounded hover:bg-yellowBright transition duration-300 flex justify-center items-center"
           >
             {loading ? (
               <div className="spinner-border animate-spin inline-block w-6 h-6 border-4 rounded-full"></div>

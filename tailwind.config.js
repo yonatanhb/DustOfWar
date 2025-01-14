@@ -13,7 +13,7 @@ export default {
         yellowBright: "#F5E60F",
       },
       fontFamily: {
-        sans: ["'Black Ops One'", "sans-serif"],
+        sans: ["'DCC-Ash'", "sans-serif"],
       },
     },
   },

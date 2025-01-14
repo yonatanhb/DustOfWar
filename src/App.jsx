@@ -5,6 +5,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Layout from "./components/Layout";
+import TeamSection from "./components/TeamSection";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Header />
         <Hero />
         <About />
+        <TeamSection />
         <Contact />
         <Footer />
       </Layout>

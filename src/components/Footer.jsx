@@ -16,7 +16,7 @@ const Footer = () => (
       {/* Social Links */}
       <div className="flex space-x-6">
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/company/dust-of-war/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-grayLighter hover:text-blue-400 transition duration-300"
@@ -34,7 +34,7 @@ const Footer = () => (
           <i className="fab fa-instagram text-2xl"></i>
         </a>
         <a
-          href="https://twitter.com/"
+          href="https://x.com/DustOfWarGame"
           target="_blank"
           rel="noopener noreferrer"
           className="text-grayLighter hover:text-black transition duration-300"
@@ -43,7 +43,7 @@ const Footer = () => (
           <i className="fab fa-twitter text-2xl"></i>
         </a>
         <a
-          href="https://discord.com/"
+          href="https://discord.gg/eXYM7Kkdmc"
           target="_blank"
           rel="noopener noreferrer"
           className="text-grayLighter hover:text-purple-400 transition duration-300"
