@@ -30,6 +30,11 @@ const Contact = () => {
       return;
     }
 
+    if (form.message.length > 500) {
+      setErrorMessage("Message cannot exceed 500 characters.");
+      return;
+    }
+
     setLoading(true);
 
     try {
@@ -77,7 +82,7 @@ const Contact = () => {
           className="bg-secondaryDark p-8 rounded-lg shadow-lg border border-grayLight relative"
         >
           {(successMessage || errorMessage) && (
-            <div className="absolute inset-0 bg-black bg-opacity-80 flex flex-col justify-center items-center text-center rounded-lg z-10">
+            <div className="absolute inset-0 bg-black bg-opacity-80 flex flex-col justify-center items-center text-center rounded-lg z-10 transition-opacity duration-300">
               <p
                 className={`text-2xl font-bold mb-4 ${
                   successMessage ? "text-yellowBright" : "text-red-400"
@@ -94,7 +99,8 @@ const Contact = () => {
             placeholder="Your Name"
             value={form.name}
             onChange={handleChange}
-            className="w-full p-4 mb-6 bg-grayNeutral text-white rounded border border-grayLight focus:outline-none focus:ring-2 focus:ring-gold"
+            className="w-full p-4 mb-6 bg-grayNeutral text-black rounded border border-grayLight focus:outline-none focus:ring-2 focus:ring-gold transition duration-300 placeholder-grayLighter"
+            disabled={loading}
             required
           />
           <input
@@ -103,25 +109,27 @@ const Contact = () => {
             placeholder="Your Email"
             value={form.email}
             onChange={handleChange}
-            className="w-full p-4 mb-6 bg-grayNeutral text-white rounded border border-grayLight focus:outline-none focus:ring-2 focus:ring-gold"
+            className="w-full p-4 mb-6 bg-grayNeutral text-black rounded border border-grayLight focus:outline-none focus:ring-2 focus:ring-gold transition duration-300 placeholder-grayLighter"
+            disabled={loading}
             required
           />
           <textarea
             name="message"
-            placeholder="Your Message"
+            placeholder="Your Message (max 500 characters)"
             value={form.message}
             onChange={handleChange}
-            className="w-full p-4 mb-6 bg-grayNeutral text-white rounded border border-grayLight focus:outline-none focus:ring-2 focus:ring-gold resize-none"
+            className="w-full p-4 mb-6 bg-grayNeutral text-black rounded border border-grayLight focus:outline-none focus:ring-2 focus:ring-gold resize-none transition duration-300 placeholder-grayLighter"
             rows="5"
             maxLength="500"
+            disabled={loading}
             required
           ></textarea>
           <button
             type="submit"
-            className="w-full py-3 bg-gold text-black rounded hover:bg-yellowBright transition duration-300 flex justify-center items-center"
+            className="text-2xl w-full py-2 bg-gold text-black rounded hover:bg-yellowBright transition duration-300 flex justify-center items-center"
           >
             {loading ? (
-              <div className="spinner-border animate-spin inline-block w-6 h-6 border-4 rounded-full"></div>
+              <div className="spinner-border animate-spin inline-block w-6 h-6 border-4 border-t-transparent rounded-full"></div>
             ) : (
               "Submit"
             )}

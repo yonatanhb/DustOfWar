@@ -5,7 +5,7 @@ const teamMembers = [
   { name: "Itai Levin", role: "Team Lead", image: "/team/itai-levin.png" },
   {
     name: "Ori Atias",
-    role: "Software Engineer",
+    role: "Software Engineer & Game Developer",
     image: "/team/ori-atias.png",
   },
   {
@@ -15,7 +15,7 @@ const teamMembers = [
   },
   {
     name: "Yonatan Haba",
-    role: "Software Engineer",
+    role: "Software Engineer & Game Developer",
     image: "/team/yonatan-haba.png",
   },
   {
