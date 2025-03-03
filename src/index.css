@@ -9,6 +9,26 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Chivo Mono";
+  src: url("/fonts/ChivoMono.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chivo Mono";
+  src: url("/fonts/ChivoMono-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
