@@ -4,16 +4,44 @@ export default {
   theme: {
     extend: {
       colors: {
-        primaryDark: "#13120D",
-        secondaryDark: "#31302C",
-        grayLight: "#54534F",
-        grayLighter: "#807E71",
-        grayNeutral: "#B7B6AC",
-        gold: "#BCA041",
-        yellowBright: "#F5E60F",
+        background: "#312f2c",
+        accent: "#484637",
+        highlight: "#bca041",
+        white: "#ffffff",
       },
       fontFamily: {
         sans: ["'DCC-Ash'", "sans-serif"],
+        chivo: ["'Chivo Mono'", "monospace"],
+      },
+      fontSize: {
+        nav: "18px",
+        about: "18px",
+        hero: "18px",
+      },
+      lineHeight: {
+        nav: "26.4px",
+        hero: "26.4",
+      },
+      letterSpacing: {
+        nav: "0%",
+      },
+      fontWeight: {
+        light: 300,
+      },
+      screens: {
+        sm: "402px",
+        md: "768px",
+        lg: "1043px",
+        lghero: "1407px",
+        xl: "1730px",
+        lgfooter: "1176px",
+        mdfooter: "866",
+        smfooter: "760px",
+      },
+      width: {
+        sm: "402px",
+        lg: "1043px",
+        xl: "1730px",
       },
     },
   },
