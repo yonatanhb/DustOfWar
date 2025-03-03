@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [loading, setLoading] = useState(false);
-  const [successMessage, setSuccessMessage] = useState("");
+  const [succemddessage, setSuccemddessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleChange = (e) => {
@@ -18,7 +18,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setErrorMessage("");
-    setSuccessMessage("");
+    setSuccemddessage("");
 
     if (!form.name || !form.email || !form.message) {
       setErrorMessage("All fields are required.");
@@ -50,11 +50,11 @@ const Contact = () => {
       );
 
       if (response.ok) {
-        setSuccessMessage("Your message has been sent successfully!");
+        setSuccemddessage("Your message has been sent successfully!");
         setForm({ name: "", email: "", message: "" });
 
         setTimeout(() => {
-          setSuccessMessage("");
+          setSuccemddessage("");
         }, 3000);
       } else {
         setErrorMessage("Failed to send your message. Please try again.");
@@ -68,74 +68,63 @@ const Contact = () => {
   };
 
   return (
-    <div
-      id="contact"
-      className="bg-gradient-to-b from-primaryDark via-secondaryDark to-black py-10 px-6 text-white relative"
-    >
-      <h2 className="text-4xl text-center mb-6 uppercase tracking-wide text-gold relative">
+    <div id="contact" className="p-10 bg-accent max-w-3xl">
+      {/* כותרת */}
+      <h2 className="text-4xl uppercase mb-6 font-sans text-white">
         Contact Us
-        <span className="absolute left-1/2 transform -translate-x-1/2 bottom-[-10px] h-1 w-20 bg-gold"></span>
       </h2>
-      <div className="max-w-lg mx-auto">
-        <form
-          onSubmit={handleSubmit}
-          className="bg-secondaryDark p-8 rounded-lg shadow-lg border border-grayLight relative"
-        >
-          {(successMessage || errorMessage) && (
-            <div className="absolute inset-0 bg-black bg-opacity-80 flex flex-col justify-center items-center text-center rounded-lg z-10 transition-opacity duration-300">
-              <p
-                className={`text-2xl font-bold mb-4 ${
-                  successMessage ? "text-yellowBright" : "text-red-400"
-                }`}
-              >
-                {successMessage || errorMessage}
-              </p>
-            </div>
-          )}
 
+      {/* טופס */}
+      <form onSubmit={handleSubmit}>
+        {/* שם */}
+        <div className="flex flex-col md:flex-row items-start md:items-center gap-2 md:gap-4 mb-4">
+          <label className="text-lg w-24 text-white">Name</label>
           <input
             type="text"
             name="name"
-            placeholder="Your Name"
             value={form.name}
             onChange={handleChange}
-            className="w-full p-4 mb-6 bg-grayNeutral text-black rounded border border-grayLight focus:outline-none focus:ring-2 focus:ring-gold transition duration-300 placeholder-grayLighter"
-            disabled={loading}
+            className="w-full md:flex-1 p-2 bg-background border border-white text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-white"
             required
           />
+        </div>
+
+        {/* אימייל */}
+        <div className="flex flex-col md:flex-row items-start md:items-center gap-2 md:gap-4 mb-4">
+          <label className="text-lg w-24 text-white">Email</label>
           <input
             type="email"
             name="email"
-            placeholder="Your Email"
             value={form.email}
             onChange={handleChange}
-            className="w-full p-4 mb-6 bg-grayNeutral text-black rounded border border-grayLight focus:outline-none focus:ring-2 focus:ring-gold transition duration-300 placeholder-grayLighter"
-            disabled={loading}
+            className="w-full md:flex-1 p-2 bg-background border border-white text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-white"
             required
           />
+        </div>
+
+        {/* הודעה */}
+        <div className="flex flex-col md:flex-row items-start md:items-center gap-2 md:gap-4 mb-6">
+          <label className="text-lg w-24 text-white">Message</label>
           <textarea
             name="message"
-            placeholder="Your Message (max 500 characters)"
             value={form.message}
             onChange={handleChange}
-            className="w-full p-4 mb-6 bg-grayNeutral text-black rounded border border-grayLight focus:outline-none focus:ring-2 focus:ring-gold resize-none transition duration-300 placeholder-grayLighter"
             rows="5"
-            maxLength="500"
-            disabled={loading}
+            className="w-full md:flex-1 p-2 bg-background border border-white text-white placeholder-white resize-none focus:outline-none focus:ring-2 focus:ring-white"
             required
           ></textarea>
+        </div>
+
+        {/* כפתור שליחה */}
+        <div className="flex justify-end">
           <button
             type="submit"
-            className="text-2xl w-full py-2 bg-gold text-black rounded hover:bg-yellowBright transition duration-300 flex justify-center items-center"
+            className="px-6 py-2 uppercase bg-highlight text-black font-chivo hover:bg-white transition-colors"
           >
-            {loading ? (
-              <div className="spinner-border animate-spin inline-block w-6 h-6 border-4 border-t-transparent rounded-full"></div>
-            ) : (
-              "Submit"
-            )}
+            {loading ? "Sending..." : "Submit"}
           </button>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   );
 };
