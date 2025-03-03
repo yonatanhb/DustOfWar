@@ -57,12 +57,9 @@ const teamMembers = [
 ];
 
 const TeamSection = () => (
-  <div className="bg-primaryDark py-20 px-6">
-    <h3 className="text-5xl text-center mb-16 uppercase tracking-widest text-grayLighter relative">
-      Meet the Team
-      <span className="absolute left-1/2 transform -translate-x-1/2 bottom-[-10px] h-1 w-32 bg-gold"></span>
-    </h3>
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+  <div id="team" className="p-20">
+    <h3 className="font-sans text-5xl mb-12">TEAM MATES</h3>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1">
       {teamMembers.map((member, index) => (
         <TeamCard
           key={index}
