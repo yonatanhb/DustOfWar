@@ -5,17 +5,16 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Layout from "./components/Layout";
-import TeamSection from "./components/TeamSection";
+import TeamAndContact from "./components/TeamAndContact";
 
 function App() {
   return (
-    <div className="font-sans">
+    <div className="font-chivo">
       <Layout>
         <Header />
         <Hero />
         <About />
-        <TeamSection />
-        <Contact />
+        <TeamAndContact />
         <Footer />
       </Layout>
     </div>
