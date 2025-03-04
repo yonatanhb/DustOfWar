@@ -1,41 +1,41 @@
 import React from "react";
 
 const Hero = () => (
-  <div
-    id="hero"
-    className="relative text-white text-hero font-chivo flex justify-left h-[1052px]"
-    style={{
-      backgroundImage: "url('assets/img2.jpeg')",
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-    }}
-  >
-    {/* לוגו ותוכן במרכז */}
-    <div className="text-left ml-12 mt-[25%] lghero:mt-[25%] xl:mt-[25%] mb-[10%] mr-[20%]">
-      {/* כותרת ראשית */}
-      <h3 className="">BY IDF ELITE COMBAT VETERANS</h3>
+  <div className="flex flex-col justify-end items-start relative w-full min-h-[1052px] bg-[#312F2C]">
+    <div
+      className="flex flex-col justify-end items-start w-full min-h-[1052px] p-12 md:p-16 lg:p-24 xl:p-[100px] gap-12 md:gap-16 lg:gap-[199px]"
+      style={{
+        background:
+          "linear-gradient(180deg, rgba(49, 47, 44, 0) 46.15%, rgba(49, 47, 44, 0.9) 100%), url(/assets/img2.jpeg)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <div className="flex flex-col items-start gap-6 md:gap-8 lg:gap-12 xl:gap-[50px] w-full max-w-[616px] md:max-w-[504px] lg:max-w-[663px] xl:max-w-[993px]">
+        {/* Section title */}
+        <h3 className="w-full text-white uppercase font-chivo font-semibold text-lg leading-[21px]">
+          By IDF Elite Combat Veterans
+        </h3>
 
-      <h1 className="font-sans text-[32px] sm:text-[52px] lghero:text-[102px] uppercase leading-tight">
-        It’s the closest you’ll get
-        <br /> to the battlefield without
-        <br /> ever stepping into one.
-      </h1>
+        {/* Main headline with responsive font sizes */}
+        <h1 className="w-full text-white uppercase font-sans font-normal text-[52px] leading-[52px] lg:text-[102px] lg:leading-[102px]">
+          It's the closest you'll get to the battlefield without ever stepping
+          into one.
+        </h1>
 
-      <div className="font-chivo grid grid-cols-1 lghero:grid-cols-2  gap-8 mt-8 text-hero">
-        <p>
-          Dust of War is a{" "}
-          <span className="underline">
-            tactical FPS military
-            <br /> simulator
-          </span>{" "}
-          created by combat veterans.
-        </p>
-        <p>
-          Our mission is to redefine the genre by
-          <br /> delivering unmatched realism and tactical
-          <br /> gameplay, inspired by real-life combat
-          <br /> experience.
-        </p>
+        {/* Description paragraphs - stacked on mobile, side by side on larger screens */}
+        <div className="flex flex-col lg:flex-row items-start gap-6 md:gap-[25px] w-full">
+          <p className="w-full lg:w-1/2 text-white font-chivo font-light text-lg leading-[26px]">
+            Dust of War is a{" "}
+            <span className="font-medium">tactical FPS military simulator</span>{" "}
+            created by combat veterans.
+          </p>
+
+          <p className="w-full lg:w-1/2 text-white font-chivo font-light text-lg leading-[26px]">
+            Our mission is to redefine the genre by delivering unmatched realism
+            and tactical gameplay, inspired by real-life combat experience.
+          </p>
+        </div>
       </div>
     </div>
   </div>
