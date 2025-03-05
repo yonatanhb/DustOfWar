@@ -4,6 +4,11 @@ import TeamCard from "./TeamCard";
 const teamMembers = [
   { name: "Itai Levin", role: "Team Lead", image: "/team/itai-levin.png" },
   {
+    name: "Eliad Ayalon",
+    role: "Project Manager",
+    image: "/team/eliad-ayalon.png",
+  },
+  {
     name: "Ori Atias",
     role: "Software Engineer & Game Developer",
     image: "/team/ori-atias.png",
@@ -44,20 +49,16 @@ const teamMembers = [
     role: "Composer & Sound Designer",
     image: "/team/ori-achinoam.png",
   },
-  {
-    name: "Eliad Ayalon",
-    role: "Music Composer & Sound Designer",
-    image: "/team/eliad-ayalon.png",
-  },
+
   {
     name: "Itamar Zion",
     role: "Music Composer & Sound Designer",
-    image: "/team/itamar-zion.png",
+    image: "/team/itamar-zion.jpeg",
   },
   {
     name: "REUVEN FRANK",
     role: "UI/UX Designer",
-    image: "/team/itamar-zion.png",
+    image: "/team/reuven-frank.jpeg",
   },
 ];
 

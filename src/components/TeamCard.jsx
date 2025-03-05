@@ -13,9 +13,13 @@ const TeamCard = ({ name, role, image, linkedinUrl }) => (
     </div>
 
     {/* Name and Role */}
-    <div className="flex flex-col lg:flex-row ">
-      <h3 className="font-chivo text-white text-hero uppercase mr-2">{name}</h3>
-      <p className="text-gray-300">{role}</p>
+    <div className="flex flex-col lg:flex-row text-[11px] mdteam:text-[18px]">
+      <h3 className="font-chivo text-white uppercase mr-2 leading[100%]">
+        {name}
+      </h3>
+      <p className="text-white leading-[17.4px] mdteam:leading-[26.4px]">
+        {role}
+      </p>
     </div>
 
     {/* LinkedIn Icon */}
