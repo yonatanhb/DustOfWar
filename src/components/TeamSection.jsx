@@ -54,11 +54,16 @@ const teamMembers = [
     role: "Music Composer & Sound Designer",
     image: "/team/itamar-zion.png",
   },
+  {
+    name: "REUVEN FRANK",
+    role: "UI/UX Designer",
+    image: "/team/itamar-zion.png",
+  },
 ];
 
 const TeamSection = () => (
   <div id="team" className="p-20">
-    <h3 className="font-sans text-5xl mb-12">TEAM MATES</h3>
+    <h3 className="font-sans text-5xl mb-12 text-white">TEAM MATES</h3>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1">
       {teamMembers.map((member, index) => (
         <TeamCard
