@@ -1,3 +1,5 @@
+import { px } from "framer-motion";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -34,6 +36,9 @@ export default {
         lg: "1043px",
         lghero: "1407px",
         xl: "1730px",
+        lgabout: "1407px",
+        mdabout: "1142px",
+        smabout: "702px",
         lgfooter: "1176px",
         mdfooter: "866",
         smfooter: "760px",
