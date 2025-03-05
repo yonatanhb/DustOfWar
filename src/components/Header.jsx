@@ -9,7 +9,7 @@ const NAV_ITEMS = [
 const Header = () => {
   return (
     <header
-      className="bg-accent text-white shadow-lg relative z-50 w-full flex justify-between items-center
+      className="sticky top-0 bg-accent text-white shadow-lg relative z-50 w-full flex justify-between items-center
       h-[40px] sm:h-[50px] md:h-auto pt-[env(safe-area-inset-top)] md:pt-[calc(25px+env(safe-area-inset-top))] 
       pr-[15px] sm:pr-[25px] md:pr-[50px] xl:pr-[100px] pb-1 sm:pb-2 md:pb-[25px] 
       pl-[15px] sm:pl-[25px] md:pl-[50px] xl:pl-[100px]"
