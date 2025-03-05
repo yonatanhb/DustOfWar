@@ -61,7 +61,7 @@ const About = () => (
         </div>
 
         {/* תמונה בחצי הימני */}
-        <div className="flex justify-center ml-10">
+        <div className="flex justify-center">
           <img src="assets/img1.png" alt="Placeholder Image" />
         </div>
       </div>
