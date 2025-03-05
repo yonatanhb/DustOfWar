@@ -40,7 +40,9 @@ export default {
         mdabout: "1142px",
         smabout: "702px",
         lgfooter: "1176px",
-        mdfooter: "866",
+        mdfooter: "866px",
+        mdteam: "867px",
+        smteam: "736px",
         smfooter: "760px",
       },
       width: {
