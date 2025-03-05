@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
 
   return isLargeScreen ? (
     <div className="bg-white text-white min-h-screen">
-      <div className="max-w-[1730px] mx-auto px-0">{children}</div>
+      <div className="max-w-[1736px] mx-auto px-0">{children}</div>
     </div>
   ) : (
     <>{children}</>
