@@ -28,19 +28,19 @@ const Footer = () => {
               FOLLOW US:
             </p>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/dust-of-war/"
               className="text-white hover:text-highlight transition-colors"
             >
               <FaLinkedin size={25} />
             </a>
             <a
-              href="#"
+              href="https://discord.gg/eXYM7Kkdmc"
               className="text-white hover:text-highlight transition-colors"
             >
               <FaDiscord size={25} />
             </a>
             <a
-              href="#"
+              href="https://x.com/DustOfWarGame"
               className="text-white hover:text-highlight transition-colors"
             >
               <MdClose size={25} /> {/* X icon */}
@@ -67,14 +67,8 @@ const Footer = () => {
       <div className="hidden lg:flex xl:hidden flex-row justify-center items-end p-[100px] gap-[50px] max-w-[1173px] mx-auto">
         <div className="flex flex-col justify-end items-center flex-grow">
           <p className="font-sans font-normal text-[52px] leading-[52px] text-center uppercase text-white w-full max-w-[461.5px]">
-            "UNDER THE
-            <br /> SUN IN THE
-            <br /> DUST OF THE
-            <br /> WAR, ONE
-            <br /> NATION
-            <br /> STANDING
-            <br /> STRONGER
-            <br /> THAN BEFORE"
+            "UNDER THE SUN IN THE DUST OF THE WAR, ONE NATION STANDING STRONGER
+            THAN BEFORE"
           </p>
           <p className="font-chivo font-semibold text-[18px] leading-[21px] uppercase text-white mt-4">
             "Counterstrike" by Sabaton
@@ -87,19 +81,19 @@ const Footer = () => {
               FOLLOW US:
             </p>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/dust-of-war/"
               className="text-white hover:text-highlight transition-colors"
             >
               <FaLinkedin size={25} />
             </a>
             <a
-              href="#"
+              href="https://discord.gg/eXYM7Kkdmc"
               className="text-white hover:text-highlight transition-colors"
             >
               <FaDiscord size={25} />
             </a>
             <a
-              href="#"
+              href="https://x.com/DustOfWarGame"
               className="text-white hover:text-highlight transition-colors"
             >
               <MdClose size={25} />
@@ -183,16 +177,10 @@ const Footer = () => {
       </div>
 
       <div className="md:hidden flex flex-col justify-end items-center p-[50px] gap-[50px] max-w-[762px] mx-auto">
-        <div className="flex flex-col justify-end items-center w-[318px]">
+        <div className="flex flex-col justify-end items-center w-[260px]">
           <p className="font-sans font-normal text-[52px] leading-[52px] text-center uppercase text-white w-full">
-            "UNDER THE
-            <br /> SUN IN THE
-            <br /> DUST OF THE
-            <br /> WAR, ONE
-            <br /> NATION
-            <br /> STANDING
-            <br /> STRONGER
-            <br /> THAN BEFORE"
+            "UNDER THE SUN IN THE DUST OF THE WAR, ONE NATION STANDING STRONGER
+            THAN BEFORE"
           </p>
           <p className="font-chivo font-semibold text-[18px] leading-[21px] uppercase text-white mt-4">
             "Counterstrike" by Sabaton
