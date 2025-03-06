@@ -31,8 +31,12 @@ const About = () => (
         ].map(({ title, content, icon }, index) => (
           <div key={index} className="bg-accent p-4 text-left">
             <div className="grid grid-cols-1 smabout:grid-cols-2 mdabout:grid-cols-1">
-              <h3 className="mb-4 uppercase leading-[100%]">{title}</h3>
-              <p className="leading-[26.4px] text-[18px]">{content}</p>
+              <h3 className="text-[18px] font-semibold mb-2 uppercase leading-[100%] pt-1">
+                {title}
+              </h3>
+              <p className="font-light leading-[26.4px] text-[18px]">
+                {content}
+              </p>
             </div>
           </div>
         ))}
