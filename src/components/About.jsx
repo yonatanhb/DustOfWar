@@ -1,9 +1,12 @@
 import React from "react";
 
 const About = () => (
-  <div id="about" className="text-white py-20 bg-background relative">
-    <div className="container mx-auto px-10 relative">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+  <div
+    id="about"
+    className="font-chivo text-white py-20 bg-background relative "
+  >
+    <div className="px-10 mx-auto relative">
+      <div className="grid grid-cols-1 mdabout:grid-cols-2 lgabout:grid-cols-4 gap-8">
         {[
           {
             title: "It’s Not About Winning",
@@ -26,30 +29,25 @@ const About = () => (
               "There are no superpowers. Combat drains your body and mind. Every choice carries weight.",
           },
         ].map(({ title, content, icon }, index) => (
-          <div
-            key={index}
-            className="fontsize-about relative bg-accent p-2 text-left "
-          >
-            {/* תוכן הכרטיס */}
-            <div className="">
-              <h3 className="text-white mb-4 uppercase">{title}</h3>
-              <p className="leading-relaxed">{content}</p>
+          <div key={index} className="bg-accent p-4 text-left">
+            <div className="grid grid-cols-1 smabout:grid-cols-2 mdabout:grid-cols-1">
+              <h3 className="mb-4 uppercase leading-[100%]">{title}</h3>
+              <p className="leading-[26.4px] text-[18px]">{content}</p>
             </div>
           </div>
         ))}
       </div>
-      {/* פסקת סיום */}
-      <div className="bg-accent text-left mt-20 grid grid-cols-1 md:grid-cols-2 ">
+
+      <div className="bg-accent text-left mt-20 grid grid-cols-1 mdabout:grid-cols-2 ">
         <div>
           <div className="p-6">
-            <h3 className="mb-36 uppercase font-bold">Unparalleled Realism</h3>
-            <p>
-              We didn’t invent groundbreaking mechanics — we brought the raw
-              reality of war. Dust of War captures the sights, sounds, and
-              intensity of combat exactly as we lived it. From the crack of
-              gunfire to the exhaustion of long engagements, the game reflects
-              the physical and mental toll of real combat. Every bullet, step,
-              and decision carries weight.
+            <h3 className="uppercase font-bold mb-4">Unparalleled Realism</h3>
+            <p className="font-light leading-[26.4px] text-[18px]">
+              Dust of War captures the sights, sounds, and intensity of combat
+              exactly as we lived it. From the crack of gunfire to the
+              exhaustion of long engagements, the game reflects the physical and
+              mental toll of real combat. Every bullet, step, and decision
+              carries weight.
               <br />
               <br />
               Dust of War is about resilience, precision, and the unrelenting
