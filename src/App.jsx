@@ -9,15 +9,13 @@ import TeamAndContact from "./components/TeamAndContact";
 
 function App() {
   return (
-    <div className="font-chivo">
-      <Layout>
-        <Header />
-        <Hero />
-        <About />
-        <TeamAndContact />
-        <Footer />
-      </Layout>
-    </div>
+    <Layout>
+      <Header />
+      <Hero />
+      <About />
+      <TeamAndContact />
+      <Footer />
+    </Layout>
   );
 }
 
