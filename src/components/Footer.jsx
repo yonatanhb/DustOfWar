@@ -129,7 +129,7 @@ const Footer = () => {
             <br /> STRONGER
             <br /> THAN BEFORE"
           </p>
-          <p className="font-chivo font-semibold text-[18px] leading-[21px] uppercase text-white mt-4">
+          <p className="font-chivo font-semibold text-[18px] leading-[21px] uppercase text-white mt-4 whitespace-nowrap min-w-[250px]">
             "Counterstrike" by Sabaton
           </p>
         </div>
@@ -182,7 +182,7 @@ const Footer = () => {
             "UNDER THE SUN IN THE DUST OF THE WAR, ONE NATION STANDING STRONGER
             THAN BEFORE"
           </p>
-          <p className="font-chivo font-semibold text-[18px] leading-[21px] uppercase text-white mt-4">
+          <p className="font-chivo font-semibold text-[16px] leading-[21px] uppercase text-white mt-4 whitespace-nowrap">
             "Counterstrike" by Sabaton
           </p>
         </div>
