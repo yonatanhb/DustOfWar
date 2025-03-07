@@ -17,7 +17,7 @@ const TeamCard = ({ name, role, image, linkedinUrl }) => (
       <h3 className="font-chivo text-white uppercase mr-2 leading[100%]">
         {name}
       </h3>
-      <p className="text-white leading-[17.4px] mdteam:leading-[26.4px]">
+      <p className="font-chivo text-white leading-[17.4px] mdteam:leading-[26.4px]">
         {role}
       </p>
     </div>
