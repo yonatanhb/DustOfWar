@@ -184,25 +184,25 @@ const Footer = () => {
               href="#"
               className="text-white hover:text-highlight transition-colors"
             >
-              <FaLinkedin size={18} />
+              <FaLinkedin size={14} />
             </a>
             <a
               href="#"
               className="text-white hover:text-highlight transition-colors"
             >
-              <FaDiscord size={18} />
+              <FaDiscord size={14} />
             </a>
             <a
               href="#"
               className="text-white hover:text-highlight transition-colors"
             >
-              <MdClose size={18} /> {/* X icon */}
+              <MdClose size={14} /> {/* X icon */}
             </a>
             <a
               href="#"
               className="text-white hover:text-highlight transition-colors"
             >
-              <FaInstagram size={18} />
+              <FaInstagram size={14} />
             </a>
           </div>
 
