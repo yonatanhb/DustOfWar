@@ -68,15 +68,12 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="p-10 bg-accent max-w-3xl">
-      {/* כותרת */}
+    <div id="contact" className="p-[1.4rem] bg-accent rounded-btn">
       <h2 className="text-4xl uppercase mb-6 font-sans text-white">
         Contact Us
       </h2>
 
-      {/* טופס */}
       <form onSubmit={handleSubmit}>
-        {/* שם */}
         <div className="flex flex-col md:flex-row items-start md:items-center gap-2 md:gap-4 mb-4">
           <label className="text-lg w-24 text-white">Name</label>
           <input
@@ -89,7 +86,6 @@ const Contact = () => {
           />
         </div>
 
-        {/* אימייל */}
         <div className="flex flex-col md:flex-row items-start md:items-center gap-2 md:gap-4 mb-4">
           <label className="text-lg w-24 text-white">Email</label>
           <input
@@ -102,7 +98,6 @@ const Contact = () => {
           />
         </div>
 
-        {/* הודעה */}
         <div className="flex flex-col md:flex-row items-start md:items-center gap-2 md:gap-4 mb-6">
           <label className="text-lg w-24 text-white">Message</label>
           <textarea
@@ -115,7 +110,6 @@ const Contact = () => {
           ></textarea>
         </div>
 
-        {/* כפתור שליחה */}
         <div className="flex justify-end">
           <button
             type="submit"
