@@ -28,14 +28,14 @@ const Header = () => {
         </div>
 
         {/* ✅ ניווט - יישור למרכז אנכי תמיד */}
-        <nav className="hidden lg:flex space-x-10 ml-auto items-center h-full">
+        <nav className="hidden lg:flex space-x-10 ml-auto items-center h-full rounded-btn">
           {NAV_ITEMS.map(({ label, href, isButton }) => (
             <a
               key={label}
               href={href}
               className={`relative text-nav leading-nav flex items-center h-full transition duration-200 px-2 py-1 ${
                 isButton
-                  ? "bg-highlight text-black hover:bg-white px-4 py-2"
+                  ? "bg-highlight text-black hover:bg-white px-4 py-2 rounded-btn"
                   : "group"
               }`}
             >
@@ -48,12 +48,12 @@ const Header = () => {
         </nav>
 
         {/* ✅ ניווט - מצב צר (רק כפתור Contact), גם ממורכז אנכית */}
-        <nav className="hidden sm:flex lg:hidden ml-auto items-center h-full">
+        <nav className=" sm:flex lg:hidden ml-auto items-center h-full">
           {NAV_ITEMS.filter((item) => item.isButton).map(({ label, href }) => (
             <a
               key={label}
               href={href}
-              className="bg-highlight text-black hover:bg-white relative text-nav leading-nav flex items-center h-full transition duration-200 px-2 py-1"
+              className="bg-highlight text-black hover:bg-white text-[14px] px-3 py-1 rounded-btn transition duration-200"
             >
               {label}
             </a>
