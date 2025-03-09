@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --base-padding: 1.4rem;
+  --border-radius: 5px;
+  --p-font-size: 11px;
+  --p-line-height: 17px;
+}
+
 @font-face {
   font-family: "DCC-Ash";
   src: url("/fonts/DCC-Ash.otf") format("opentype");
@@ -33,4 +40,11 @@ body {
   overflow-x: hidden;
   background-color: #312f2c;
   font-family: chivo mono;
+}
+
+button,
+input,
+textarea,
+.about-card {
+  border-radius: var(--border-radius);
 }
