@@ -3,9 +3,9 @@ import React from "react";
 const About = () => (
   <div
     id="about"
-    className="font-chivo text-white py-20 bg-background relative "
+    className="font-chivo text-white py-20 bg-background relative"
   >
-    <div className="px-10 mx-auto relative">
+    <div className="px-[1.4rem] mx-auto relative">
       <div className="grid grid-cols-1 mdabout:grid-cols-2 lgabout:grid-cols-4 gap-8">
         {[
           {
@@ -29,12 +29,12 @@ const About = () => (
               "There are no superpowers. Combat drains your body and mind. Every choice carries weight.",
           },
         ].map(({ title, content, icon }, index) => (
-          <div key={index} className="bg-accent p-4 text-left">
+          <div key={index} className="bg-accent p-4 text-left rounded-btn">
             <div className="grid grid-cols-1 smabout:grid-cols-2 mdabout:grid-cols-1">
-              <h3 className="text-[18px] font-semibold mb-2 uppercase leading-[100%] pt-1">
+              <h3 className="text-[11px] md:text-[18px] font-semibold mb-2 uppercase leading-[100%] pt-1">
                 {title}
               </h3>
-              <p className="font-light leading-[26.4px] text-[18px]">
+              <p className="font-light  leading-[17px] text-[11px] md:leading-[26.4px] md:text-[18px]">
                 {content}
               </p>
             </div>
@@ -42,11 +42,11 @@ const About = () => (
         ))}
       </div>
 
-      <div className="bg-accent text-left mt-20 grid grid-cols-1 mdabout:grid-cols-2 ">
+      <div className="bg-accent text-left mt-20 grid grid-cols-1 mdabout:grid-cols-2  rounded-btn">
         <div>
           <div className="p-6">
             <h3 className="uppercase font-bold mb-4">Unparalleled Realism</h3>
-            <p className="font-light leading-[26.4px] text-[18px]">
+            <p className="font-light leading-[17px] md:leading-[26.4px] text-[11px] md:text-[18px]">
               Dust of War captures the sights, sounds, and intensity of combat
               exactly as we lived it. From the crack of gunfire to the
               exhaustion of long engagements, the game reflects the physical and
@@ -62,9 +62,12 @@ const About = () => (
           </div>
         </div>
 
-        {/* תמונה בחצי הימני */}
         <div className="flex justify-center">
-          <img src="assets/img1.png" alt="Placeholder Image" />
+          <img
+            src="assets/img1.png"
+            alt="Placeholder Image"
+            className="rounded-btn"
+          />
         </div>
       </div>
     </div>
