@@ -13,8 +13,10 @@ const TeamCard = ({ name, role, image, linkedinUrl }) => (
     </div>
 
     {/* Name and Role */}
-    <div className="flex flex-col lg:flex-row text-[11px] mdteam:text-[18px]">
-      <h3 className="font-chivo text-white uppercase  leading[100%]">{name}</h3>
+    <div className="flex flex-col lg:flex-row text-[11px] mdteam:text-[15px] xl:text-[18px]">
+      <h3 className="font-chivo text-white uppercase leading[100%] mr-2">
+        {name}
+      </h3>
       <p className="font-chivo text-white leading-[17.4px] mdteam:leading-[26.4px]">
         {role}
       </p>
@@ -26,7 +28,7 @@ const TeamCard = ({ name, role, image, linkedinUrl }) => (
         href={linkedinUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center justify-center w-8 h-8  text-gray-300 hover:bg-gray-700 transition-colors"
+        className="flex items-center justify-center w-8 h-8 text-gray-300 hover:bg-gray-700 transition-colors"
       >
         <ExternalLink size={18} />
       </a>
