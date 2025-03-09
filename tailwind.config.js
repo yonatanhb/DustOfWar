@@ -19,16 +19,24 @@ export default {
         nav: "18px",
         about: "18px",
         hero: "18px",
+        "mobile-p": "11px",
       },
       lineHeight: {
         nav: "26.4px",
         hero: "26.4",
+        "mobile-p": "17px",
+      },
+      spacing: {
+        "base-padding": "1.4rem",
       },
       letterSpacing: {
         nav: "0%",
       },
       fontWeight: {
         light: 300,
+      },
+      borderRadius: {
+        btn: "5px",
       },
       screens: {
         sm: "402px",
