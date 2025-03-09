@@ -170,48 +170,47 @@ const Footer = () => {
             "UNDER THE SUN IN THE DUST OF THE WAR, ONE NATION STANDING STRONGER
             THAN BEFORE"
           </h2>
-          <p className="font-chivo font-semibold text-[11px] leading-[17px] sm:text-[18px] sm:leading-[21px] uppercase whitespace-nowrap text-white mt-4">
+          <p className="font-chivo font-semibold text-[11px] leading-[17px] uppercase text-white mt-4 whitespace-nowrap">
             "Counterstrike" by Sabaton
           </p>
         </div>
 
         <div className="flex flex-col items-center gap-[25px] w-full">
           <div className="flex flex-row justify-end items-center gap-[25px]">
-            <p className="font-chivo font-semibold text-[11px] leading-[17px] sm:text-[18px] sm:leading-[21px] uppercase whitespace-nowrap">
+            <p className="font-chivo font-semibold text-[11px] leading-[17px] uppercase">
               FOLLOW US:
             </p>
             <a
               href="#"
               className="text-white hover:text-highlight transition-colors"
             >
-              <FaLinkedin size={14} />
+              <FaLinkedin size={15} />
             </a>
             <a
               href="#"
               className="text-white hover:text-highlight transition-colors"
             >
-              <FaDiscord size={14} />
+              <FaDiscord size={15} />
             </a>
             <a
               href="#"
               className="text-white hover:text-highlight transition-colors"
             >
-              <MdClose size={14} /> {/* X icon */}
+              <MdClose size={15} /> {/* X icon */}
             </a>
             <a
               href="#"
               className="text-white hover:text-highlight transition-colors"
             >
-              <FaInstagram size={14} />
+              <FaInstagram size={15} />
             </a>
           </div>
 
           <div className="flex flex-col items-center">
-            <p className="font-chivo font-semibold text-[11px] leading-[17px] sm:text-[18px] sm:leading-[21px] uppercase">
+            <p className="font-chivo font-semibold text-[11px] leading-[17px] uppercase">
               DUST OF WAR
             </p>
-
-            <p className="font-chivo font-semibold text-[11px] leading-[17px] sm:text-[18px] sm:leading-[21px] uppercase whitespace-nowrap">
+            <p className="font-chivo font-semibold text-[11px] leading-[17px] uppercase text-center whitespace-nowrap">
               © 2025 ALL RIGHTS RESERVED
             </p>
           </div>
