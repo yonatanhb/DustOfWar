@@ -1,12 +1,19 @@
 import React from "react";
 import TeamCard from "./TeamCard";
+import { u } from "framer-motion/client";
 
 const teamMembers = [
-  { name: "Itai Levin", role: "Team Lead", image: "/team/itai-levin.png" },
+  {
+    name: "Itai Levin",
+    role: "Team Lead",
+    image: "/team/itai-levin.png",
+    url: "https://www.linkedin.com/in/itai-levin",
+  },
   {
     name: "Eliad Ayalon",
     role: "Project Manager",
     image: "/team/eliad-ayalon.png",
+    url: "",
   },
   {
     name: "Ori Atias",
@@ -17,11 +24,13 @@ const teamMembers = [
     name: "Chanan Berkotitz",
     role: "Software Engineer",
     image: "/team/chanan-berkotitz.png",
+    url: "https://www.linkedin.com/in/chanan-berkotitz",
   },
   {
     name: "Yonatan Haba",
     role: "Software Engineer & Game Developer",
     image: "/team/yonatan-haba.png",
+    url: "https://www.linkedin.com/in/yonatan-haba",
   },
   {
     name: "Shmuel Metzger",
@@ -32,6 +41,7 @@ const teamMembers = [
     name: "Saar Partush",
     role: "Lead Designer & Environment Artist",
     image: "/team/saar-partush.png",
+    url: "https://www.linkedin.com/in/saar-partush",
   },
   {
     name: "Dotan Greenberg",
@@ -59,11 +69,17 @@ const teamMembers = [
     name: "REUVEN FRANK",
     role: "UI/UX Designer",
     image: "/team/reuven-frank.jpeg",
+    url: "https://www.linkedin.com/in/reuvenfrank/",
+  },
+  {
+    name: "Yossef Cohen",
+    role: "Software & Game Developer",
+    image: "/team/yossef-cohen.jpeg",
   },
 ];
 
 const TeamSection = () => (
-  <div id="team" className="p-20">
+  <div id="team">
     <h3 className="font-sans text-5xl mb-12 text-white">TEAM MATES</h3>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1">
       {teamMembers.map((member, index) => (
@@ -72,6 +88,7 @@ const TeamSection = () => (
           name={member.name}
           role={member.role}
           image={member.image}
+          linkedinUrl={member.url}
         />
       ))}
     </div>

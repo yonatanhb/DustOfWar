@@ -4,14 +4,12 @@ import Contact from "./Contact";
 
 const TeamAndContact = () => {
   return (
-    <div className="bg-background grid grid-cols-1 lg:grid-cols-2 gap-8">
-      {/* צוות (Team) בצד שמאל */}
+    <div className="p-[1.4rem] bg-background grid grid-cols-1 lg:grid-cols-2 gap-8">
       <div>
         <TeamSection />
       </div>
 
-      {/* צור קשר (Contact) מתחיל מהסוף של TeamSection */}
-      <div className="flex flex-col self-end mb-16">
+      <div className="flex flex-col self-end ">
         <Contact />
       </div>
     </div>
