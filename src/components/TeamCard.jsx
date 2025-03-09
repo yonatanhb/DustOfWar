@@ -13,11 +13,11 @@ const TeamCard = ({ name, role, image, linkedinUrl }) => (
     </div>
 
     {/* Name and Role */}
-    <div className="flex flex-col lg:flex-row text-[11px] mdteam:text-[15px] xl:text-[18px]">
+    <div className="flex flex-col lg:flex-row text-[11px] mdteam:text-[13px] xl:text-[18px]">
       <h3 className="font-chivo text-white uppercase leading[100%] mr-2">
         {name}
       </h3>
-      <p className="font-chivo text-white leading-[17.4px] mdteam:leading-[26.4px]">
+      <p className="font-chivo text-white leading-[17.4px] mdteam:leading-[19px] xl:leading-[26.4px]">
         {role}
       </p>
     </div>
