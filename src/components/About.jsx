@@ -63,11 +63,11 @@ const About = () => (
         </div>
 
         <div className="flex justify-center">
-          <img
+          {/* <img
             src="assets/img1.png"
             alt="Placeholder Image"
             className="rounded-btn"
-          />
+          /> */}
         </div>
       </div>
     </div>
