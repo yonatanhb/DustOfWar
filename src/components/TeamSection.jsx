@@ -7,24 +7,24 @@ const teamMembers = [
     name: "Itai Levin",
     role: "Team Lead",
     image: "/team/itai-levin.png",
-    url: "https://www.linkedin.com/in/itai-levin",
+    url: "https://www.linkedin.com/in/itai-levin-793538180/",
   },
   {
     name: "Eliad Ayalon",
     role: "Project Manager",
     image: "/team/eliad-ayalon.png",
-    url: "",
   },
   {
     name: "Ori Atias",
     role: "Software Engineer & Game Developer",
     image: "/team/ori-atias.png",
+    url: "https://www.linkedin.com/in/oriatias/",
   },
   {
-    name: "Chanan Berkotitz",
+    name: "Chanan Berkovitz",
     role: "Software Engineer",
     image: "/team/chanan-berkotitz.png",
-    url: "https://www.linkedin.com/in/chanan-berkotitz",
+    url: "https://www.linkedin.com/in/chanan-berkovits-219419244/",
   },
   {
     name: "Yonatan Haba",
@@ -43,10 +43,16 @@ const teamMembers = [
     image: "/team/saar-partush.png",
     url: "https://www.linkedin.com/in/saar-partush",
   },
+  // {
+  //   name: "Dotan Greenberg",
+  //   role: "Game Developer & DevOps Engineer",
+  //   image: "/team/dotan-greenberg.png",
+  // },
   {
-    name: "Dotan Greenberg",
-    role: "Game Developer & DevOps Engineer",
-    image: "/team/dotan-greenberg.png",
+    name: "Eden Bitush",
+    role: "unknown",
+    image: "/team/eden-bitush.png",
+    url: "https://www.linkedin.com/in/eden-bitush-a46128211/",
   },
   {
     name: "Roey Tenenbaum",
@@ -64,6 +70,7 @@ const teamMembers = [
     name: "Itamar Zion",
     role: "Music Composer & Sound Designer",
     image: "/team/itamar-zion.jpeg",
+    url: "https://www.linkedin.com/in/itamar-zion-402653252/",
   },
   {
     name: "REUVEN FRANK",
@@ -75,6 +82,7 @@ const teamMembers = [
     name: "Yossef Cohen",
     role: "Software & Game Developer",
     image: "/team/yossef-cohen.jpeg",
+    url: "https://www.linkedin.com/in/yossef-cohen-704268235/",
   },
 ];
 
