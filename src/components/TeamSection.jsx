@@ -50,14 +50,21 @@ const teamMembers = [
   // },
   {
     name: "Eden Bitush",
-    role: "unknown",
+    role: "Environment Designer",
     image: "/team/eden-bitush.png",
     url: "https://www.linkedin.com/in/eden-bitush-a46128211/",
   },
   {
-    name: "Roey Tenenbaum",
+    name: "Scotty Faktorovich",
+    role: "Character Modeler",
+    image: "/team/scotty.jpeg",
+    url: "",
+  },
+  {
+    name: "Roy Tennenbaum",
     role: "Game Developer",
     image: "/team/roey-tenenbaum.png",
+    url: "https://www.linkedin.com/in/roy-tennenbaum-fullstack-developer/",
   },
   { name: "Sagi Lavin", role: "Graphic Design", image: "/team/sagi-levin.png" },
   {
