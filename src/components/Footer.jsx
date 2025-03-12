@@ -24,24 +24,32 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/company/dust-of-war/"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaLinkedin size={25} />
             </a>
             <a
               href="https://discord.gg/eXYM7Kkdmc"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaDiscord size={25} />
             </a>
             <a
               href="https://x.com/DustOfWarGame"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <MdClose size={25} /> {/* X icon */}
             </a>
             {/* <a
               href="#"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaInstagram size={25} />
             </a> */}
@@ -77,24 +85,32 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/company/dust-of-war/"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaLinkedin size={25} />
             </a>
             <a
               href="https://discord.gg/eXYM7Kkdmc"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaDiscord size={25} />
             </a>
             <a
               href="https://x.com/DustOfWarGame"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <MdClose size={25} />
             </a>
             {/* <a
               href="#"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaInstagram size={25} />
             </a> */}
@@ -130,24 +146,32 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/company/dust-of-war/"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaLinkedin size={25} />
             </a>
             <a
               href="https://discord.gg/eXYM7Kkdmc"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaDiscord size={25} />
             </a>
             <a
               href="https://x.com/DustOfWarGame"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <MdClose size={25} /> {/* X icon */}
             </a>
             {/* <a
               href="#"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaInstagram size={25} />
             </a> */}
@@ -183,24 +207,32 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/company/dust-of-war/"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaLinkedin size={15} />
             </a>
             <a
               href="https://discord.gg/eXYM7Kkdmc"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaDiscord size={15} />
             </a>
             <a
               href="https://x.com/DustOfWarGame"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <MdClose size={15} /> {/* X icon */}
             </a>
             {/* <a
               href="#"
               className="text-white hover:text-highlight transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaInstagram size={15} />
             </a> */}
