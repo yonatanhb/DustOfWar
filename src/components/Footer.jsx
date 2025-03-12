@@ -128,19 +128,19 @@ const Footer = () => {
               FOLLOW US:
             </p>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/dust-of-war/"
               className="text-white hover:text-highlight transition-colors"
             >
               <FaLinkedin size={25} />
             </a>
             <a
-              href="#"
+              href="https://discord.gg/eXYM7Kkdmc"
               className="text-white hover:text-highlight transition-colors"
             >
               <FaDiscord size={25} />
             </a>
             <a
-              href="#"
+              href="https://x.com/DustOfWarGame"
               className="text-white hover:text-highlight transition-colors"
             >
               <MdClose size={25} /> {/* X icon */}
@@ -181,19 +181,19 @@ const Footer = () => {
               FOLLOW US:
             </p>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/dust-of-war/"
               className="text-white hover:text-highlight transition-colors"
             >
               <FaLinkedin size={15} />
             </a>
             <a
-              href="#"
+              href="https://discord.gg/eXYM7Kkdmc"
               className="text-white hover:text-highlight transition-colors"
             >
               <FaDiscord size={15} />
             </a>
             <a
-              href="#"
+              href="https://x.com/DustOfWarGame"
               className="text-white hover:text-highlight transition-colors"
             >
               <MdClose size={15} /> {/* X icon */}
