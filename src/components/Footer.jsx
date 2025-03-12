@@ -39,12 +39,12 @@ const Footer = () => {
             >
               <MdClose size={25} /> {/* X icon */}
             </a>
-            <a
+            {/* <a
               href="#"
               className="text-white hover:text-highlight transition-colors"
             >
               <FaInstagram size={25} />
-            </a>
+            </a> */}
           </div>
 
           <div className="flex flex-col items-end w-[281px]">
@@ -92,12 +92,12 @@ const Footer = () => {
             >
               <MdClose size={25} />
             </a>
-            <a
+            {/* <a
               href="#"
               className="text-white hover:text-highlight transition-colors"
             >
               <FaInstagram size={25} />
-            </a>
+            </a> */}
           </div>
 
           <div className="flex flex-col items-center">
@@ -145,12 +145,12 @@ const Footer = () => {
             >
               <MdClose size={25} /> {/* X icon */}
             </a>
-            <a
+            {/* <a
               href="#"
               className="text-white hover:text-highlight transition-colors"
             >
               <FaInstagram size={25} />
-            </a>
+            </a> */}
           </div>
 
           <div className="flex flex-col items-end">
@@ -198,12 +198,12 @@ const Footer = () => {
             >
               <MdClose size={15} /> {/* X icon */}
             </a>
-            <a
+            {/* <a
               href="#"
               className="text-white hover:text-highlight transition-colors"
             >
               <FaInstagram size={15} />
-            </a>
+            </a> */}
           </div>
 
           <div className="flex flex-col items-center">
