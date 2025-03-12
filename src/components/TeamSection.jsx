@@ -34,7 +34,7 @@ const teamMembers = [
   },
   {
     name: "Shmuel Metzger",
-    role: "Software Engineer",
+    role: "Software Engineer & Game Developer",
     image: "/team/shmuel-metzger.png",
   },
   {
