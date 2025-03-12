@@ -23,16 +23,18 @@ const TeamCard = ({ name, role, image, linkedinUrl }) => (
     </div>
 
     {/* LinkedIn Icon */}
-    <div className="flex-shrink-0">
-      <a
-        href={linkedinUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center justify-center w-8 h-8 text-gray-300 hover:bg-gray-700 transition-colors"
-      >
-        <ExternalLink size={18} />
-      </a>
-    </div>
+    {linkedinUrl && (
+      <div className="flex-shrink-0">
+        <a
+          href={linkedinUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center w-8 h-8 text-gray-300 hover:bg-gray-700 transition-colors"
+        >
+          <ExternalLink size={18} />
+        </a>
+      </div>
+    )}
   </div>
 );
 

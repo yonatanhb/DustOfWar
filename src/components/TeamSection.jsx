@@ -38,6 +38,12 @@ const teamMembers = [
     image: "/team/shmuel-metzger.png",
   },
   {
+    name: "Yossef Cohen",
+    role: "Software & Game Developer",
+    image: "/team/yossef-cohen.jpeg",
+    url: "https://www.linkedin.com/in/yossef-cohen-704268235/",
+  },
+  {
     name: "Saar Partush",
     role: "Lead Designer & Environment Artist",
     image: "/team/saar-partush.png",
@@ -50,7 +56,7 @@ const teamMembers = [
   // },
   {
     name: "Eden Bitush",
-    role: "Environment Designer",
+    role: "Environment Artist",
     image: "/team/eden-bitush.png",
     url: "https://www.linkedin.com/in/eden-bitush-a46128211/",
   },
@@ -66,7 +72,7 @@ const teamMembers = [
     image: "/team/roey-tenenbaum.png",
     url: "https://www.linkedin.com/in/roy-tennenbaum-fullstack-developer/",
   },
-  { name: "Sagi Lavin", role: "Graphic Design", image: "/team/sagi-levin.png" },
+  { name: "Sagi Levin", role: "Graphic Design", image: "/team/sagi-levin.png" },
   {
     name: "Ori Achinoam",
     role: "Composer & Sound Designer",
@@ -75,7 +81,7 @@ const teamMembers = [
 
   {
     name: "Itamar Zion",
-    role: "Music Composer & Sound Designer",
+    role: "Music & Sound Designer",
     image: "/team/itamar-zion.jpeg",
     url: "https://www.linkedin.com/in/itamar-zion-402653252/",
   },
@@ -84,12 +90,6 @@ const teamMembers = [
     role: "UI/UX Designer",
     image: "/team/reuven-frank.jpeg",
     url: "https://www.linkedin.com/in/reuvenfrank/",
-  },
-  {
-    name: "Yossef Cohen",
-    role: "Software & Game Developer",
-    image: "/team/yossef-cohen.jpeg",
-    url: "https://www.linkedin.com/in/yossef-cohen-704268235/",
   },
 ];
 
