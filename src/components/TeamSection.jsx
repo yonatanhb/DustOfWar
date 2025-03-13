@@ -47,7 +47,7 @@ const teamMembers = [
     name: "Saar Partush",
     role: "Lead Designer & Environment Artist",
     image: "/team/saar-partush.png",
-    url: "https://www.linkedin.com/in/saar-partush",
+    url: "https://www.linkedin.com/in/saar-partush-7bb372271/",
   },
   // {
   //   name: "Dotan Greenberg",
